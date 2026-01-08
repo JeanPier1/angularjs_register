@@ -1,2 +1,3 @@
 # angularjs_register
-# angularjs_register
+`` 
+npm install
