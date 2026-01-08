@@ -1,0 +1,26 @@
+<div class="row justify-content-center">
+    <div class="col-md-4 card p-4 shadow">
+        <h3 class="text-center">Iniciar Sesión</h3>
+        <form ng-submit="hacerLogin()">
+            <div class="mb-3">
+                <label>Email</label>
+                <input
+                    type="email"
+                    class="form-control"
+                    ng-model="usuario.email"
+                    required
+                />
+            </div>
+            <div class="mb-3">
+                <label>Password</label>
+                <input
+                    type="password"
+                    class="form-control"
+                    ng-model="usuario.password"
+                    required
+                />
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Entrar</button>
+        </form>
+    </div>
+</div>

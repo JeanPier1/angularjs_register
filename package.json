@@ -1,0 +1,20 @@
+{
+  "name": "angularjs-register",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "live-server src --port=8080 --entry-file=index.html",
+    "dev": "npm start",
+    "build": "rm -rf dist && mkdir dist && copyfiles -u 1 src/**/* dist && copyfiles node_modules/angular/angular.min.js node_modules/angular-route/angular-route.min.js dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.8.2"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
